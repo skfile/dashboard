@@ -1,15 +1,20 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
 
-class SearchField extends StatefulWidget {
-  const SearchField({Key? key}) : super(key: key);
+// class SearchField extends StatelessWidget {
+//   const SearchField({Key? key}) : super(key: key);
 
-  @override
-  _SearchFieldState createState() => _SearchFieldState();
-}
-
-class _SearchFieldState extends State<SearchField> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//         padding: EdgeInsets.all(16),
+//         child: Column(children: [
+//           Row(children: [
+//             TextField(),
+//             TextField(),
+//             // InputDatePickerFormField(
+//             //     firstDate: DateTime.now(),
+//             //     lastDate: DateTime(DateTime.now().year + 1))
+//           ]),
+//         ]));
+//   }
+// }

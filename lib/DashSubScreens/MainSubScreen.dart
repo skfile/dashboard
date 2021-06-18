@@ -1,4 +1,4 @@
-import 'package:dashboard/DashSubScreens/SearchField.dart';
+// import 'package:dashboard/DashSubScreens/SearchField.dart';
 import 'package:dashboard/DashSubScreens/SubPageTable.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +19,7 @@ class MainSubScreen extends StatelessWidget {
           SizedBox(
             height: 16,
           ),
-          SearchField(),
+          // SearchField(),
           SubPageTable()
         ],
       ),
